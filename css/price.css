@@ -1,0 +1,90 @@
+.pricing-contant {
+    text-align: center;
+    overflow: hidden;
+    
+
+}
+.pricing-item {
+    float: left;
+    width: 30%;
+    height: 500px;
+    border: 1px solid #e8e8e8;
+    padding-top: 35px;
+}
+.pricing-item2 {
+    margin: 0 5%;
+}
+.pricing-item .border-cercle {
+    border: 2px solid #6195ff;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+.border-cercle .dolar {
+    font-size: 50px;
+    transition: color 0.5s
+}
+.border-cercle .month {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    transition: color 0.5s
+}
+.pricing-item > span {
+    color: #999;
+    transition: color 0.5s;
+}
+.pricing-item .pricing-item-p {
+    line-height: 1.9;
+    color: #999;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.pricing-item .pricing-item-btn {
+    background: none;
+    border: 2px solid #6195ff;
+    background-color: ;
+    color: #6195ff;
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.tb {
+    position: relative;
+}
+.tb::after {
+    position: absolute;
+    content: "";
+    top :0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    transition: height 0.3s;
+    background-color: #333;
+    z-index: -1;
+    
+}
+.tb:hover::after {
+    height: 100%;
+}
+.tb:hover .dolar ,
+.tb:hover .month {
+    color: white;
+}
+.tb:hover .pricing-item-span {
+    color: #6195ff;
+}
+.pricing-item-btn:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #000;
+
+}
+.pricing-item-btn {
+    transition: all 0.5s;
+}

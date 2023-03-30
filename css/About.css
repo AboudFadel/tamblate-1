@@ -1,0 +1,30 @@
+.about {
+    /* background-color: black; */
+    height: 40rem;
+}
+.about-item {
+    /* background-color: #6195ff; */
+    width: 30%;
+    padding: 70px 22px;
+    float: left;
+    text-align: center;
+    border: 2px solid #e8e8e8;
+    height: 250px;
+    line-height: 30px;
+    text-transform: capitalize;
+    
+}
+.about-item a {
+    text-decoration: none;
+    color: #6195ff
+}
+.about-img2 {
+    margin: 0 5%;
+}
+.about-h2 {
+    margin-bottom: 10px;
+    transition: color 0.7s;
+}
+.about-p {
+    color: #999;
+}

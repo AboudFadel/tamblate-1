@@ -1,0 +1,124 @@
+.porto {
+    background-color: #f9f9f9;
+   
+}
+.porto-contant {
+    overflow: hidden;
+}
+.proto-img {
+    width: 30%;
+    float: left;
+    position: relative;
+    
+}
+.proto-img img {
+    width: 100%;
+    padding: 20px;
+}
+.proto-img2 , .proto-img5 {
+    margin: 0 5%;
+}
+.proto-img1 , .proto-img2 , .proto-img3 {
+    margin-bottom: 60px;
+}
+.proto-contant .layer-contant {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0 , 0.7);
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.proto-img :hover {
+    opacity: 1;
+}
+.proto-contant .layer-contant .layer-info {
+    position: absolute;
+    /* background-color: gold; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #6195ff;
+}
+.proto-contant .layer-contant .layer-info a {
+    color: #eff;
+    background-color: #6195ff;
+    display: inline-block;
+    width:40px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 7px;
+    transition-delay: 0.2s;
+    transition: opacity 1s , top 0.5s;
+    position: relative;
+    top: 10px;
+}
+
+.layer-contant .layer-info .h3-layer {
+    color: #eff;
+    margin: 10px 0;
+    transition-delay: 0.2s;
+    transition: opacity 1s , top 0.5s;
+    position: relative;
+    top: 10px;
+}
+.layer-contant .layer-info .span-layer {
+    text-transform: uppercase;
+    transition-delay: 0;
+    transition: opacity 1s , top 0.5s;
+    position: relative;
+    top: 10px;
+}
+.layer-contant:hover .layer-info .h3-layer ,
+.layer-contant:hover .layer-info .span-layer ,
+.layer-contant:hover .layer-info a {
+    top: 0;
+}
+/* ///////////////////////////////////////////////..new page */
+.offer {
+
+}
+.offer-contant {
+    overflow: hidden;
+    width: 100%;
+}
+.offer-item {
+    width: 30%;
+    float: left;
+    border: 1px solid #e8e8e8;
+    padding: 10px 80px 10px 80px;
+    position: relative;
+    line-height: 30px;
+
+}
+.offer-item2 , .offer-item5 {
+    margin: 0 5%;
+}
+.offer-item1 , .offer-item2 , .offer-item3 {
+    margin-bottom: 20px;
+}
+.offer-item .icon {
+    color: blue;
+    position: absolute;
+    top: 36px;
+    left: 20px;
+
+}
+.offer-item-title , .offer-item-desc {
+    margin-bottom: 30px;
+    margin-top: 18px;
+}
+.offer-item-desc {
+    color: #999;
+    padding-bottom: 30px;
+}
+.offer-item-title {
+    text-transform: capitalize;
+    transition: color 0.5s;
+}
+.offer-item:hover .offer-item-title {
+    color: #FFF;
+}
